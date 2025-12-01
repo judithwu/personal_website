@@ -2,23 +2,26 @@ import { useState } from "react";
 import { cn } from "@/lib/utils";
 
 const skills = [
-  {name: "Python", level: 95, category: "languages"},
-  {name: "R", level: 95, category: "languages"},
-  {name: "C/C++", level: 95, category: "languages"},
-  {name: "Java", level: 95, category: "languages"},
-  {name: "JavaScript", level: 95, category: "languages"},
-  {name: "SQL", level: 95, category: "languages"},
-  {name: "HTML/CSS", level: 95, category: "languages"},
+  {name: "Python", category: "languages"},
+  {name: "R", category: "languages"},
+  {name: "C/C++", category: "languages"},
+  {name: "Java", category: "languages"},
+  {name: "JavaScript", category: "languages"},
+  {name: "SQL", category: "languages"},
+  {name: "HTML/CSS", category: "languages"},
 
-  {name: "TensorFlow/Keras", level: 95, category: "frameworks"},
-  {name: "PyTorch", level: 95, category: "frameworks"},
+  {name: "TensorFlow/Keras", category: "frameworks"},
+  {name: "PyTorch", category: "frameworks"},
+  {name: "PyBullet", category: "frameworks"},
+  {name: "ROS/ROS2", category: "frameworks"},
+  {name: "Gazebo", category: "frameworks"},
 
-  {name: "Git/GitHub", level: 95, category: "tools"},
-  {name: "MATLAB", level: 95, category: "tools"},
-  {name: "Linux", level: 95, category: "tools"},
-  {name: "Jupyter", level: 95, category: "tools"},
-  {name: "Visual Studio Code", level: 95, category: "tools"},
-  {name: "PyCharm", level: 95, category: "tools"}
+  {name: "Git/GitHub", category: "tools"},
+  {name: "MATLAB", category: "tools"},
+  {name: "Linux", category: "tools"},
+  {name: "Jupyter", category: "tools"},
+  {name: "Visual Studio Code", category: "tools"},
+  {name: "PyCharm", category: "tools"}
 ];
 
 const categories = ["all", "languages", "frameworks", "tools"];
