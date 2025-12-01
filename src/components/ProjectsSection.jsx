@@ -5,7 +5,7 @@ const projects = [
     id: 1,
     title: "Semantic Segmentation of Road Scenes",
     description: "lorem ipsum dolor",
-    image: "/projects/proj3.png",
+    image: "/personal_website/projects/proj3.png",
     tags: ["PyTorch", "blah", "bleh"],
     demoUrl: "#",
     githubUrl: "#"
@@ -14,7 +14,7 @@ const projects = [
     id: 2,
     title: "Semantic Segmentation of Road Scenes",
     description: "lorem ipsum dolor",
-    image: "/projects/proj2.png",
+    image: "/personal_website/projects/proj2.png",
     tags: ["PyTorch", "blah", "bleh"],
     demoUrl: "#",
     githubUrl: "#"
@@ -23,7 +23,7 @@ const projects = [
     id: 3,
     title: "Semantic Segmentation of Road Scenes",
     description: "lorem ipsum dolor",
-    image: "/projects/proj1.png",
+    image: "/personal_website/projects/proj1.png",
     tags: ["PyTorch", "blah", "bleh"],
     demoUrl: "#",
     githubUrl: "#"
