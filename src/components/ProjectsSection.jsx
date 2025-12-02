@@ -7,6 +7,7 @@ const projects = [
     description: "Implemented the UNet model for semantic segmentation of road scenes. Built a custom dataset for preprocessing and loading images, implemented Dice loss and IoU metrics, and wrote training and evaluation functions, tracking both per-class and overall performance.",
     image: "/personal_website/projects/proj1.png",
     tags: ["Python", "PyTorch", "OpenCV", "PyTorch Custom Datasets", "Image Preprocessing", "UNet", "Model Training", "Model Evaluation"],
+    githubUrl: "https://github.com/judithwu/road_semseg"
   },
   {
     id: 2,
